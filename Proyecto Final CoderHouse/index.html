@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudFire Hosting</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="/Style/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- BARRA DE NAVEGACIÓN -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/images/foto.png" width="300"></a>
+      <button class="navbar-toggler" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#precios-planes">Precios y planes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#caracteristicas">Caracteristicas de los servicios</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- CARROUSEL -->
+<div id="plan-info">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slider1.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider2.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- features -->
+  <br>
+
+<div id="caracteristicas-style">
+  <div id="caracteristicas">
+    <div class="container-md p5">
+      <div class="row pt-5">
+        <h3 class="text-center pb-5 pd-5 h1">¿Qué características tienen nuestros servicios?</h3>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm">
+          <div class="card w-100 card-border mb-5">
+            <img src="images/card-01.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title text-center">IPv4 & IPv6</h5>
+              <p class="card-text text-center text-muted">Todos nuestros servicios CloudServer incluyen 2 IPs Públicas</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card w-100 card-border mb-5">
+            <img src="images/card-02.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Firewall</h5>
+              <p class="card-text text-muted">Gestiona las reglas de acceso de tráfico para cada CloudServer desde una interfaz simple e intuitiva desde tu panel de control.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card w-100 card-border mb-5">
+            <img src="images/card-03.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title text-center">Terminal Web</h5>
+              <p class="card-text text-center text-muted">Accede a una consola o escritorio remoto directamente desde tu navegador web y controla tus servidores desde cualquier lugar.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card w-100 card-border mb-5">
+            <img src="images/card-04.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title text-center">Backups</h5>
+              <p class="card-text text-center text-muted">La información de tus servers es replicada siempre en tiempo real. Además hacemos backups semanales automáticamente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+ 
+  <br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- PRICING -->
+
+<div id="pricing-display">
+  <div id="precios-planes" class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal">Precios y planes</h1>
+    <p class="fs-5 text-muted">Elegí el plan que más se adapte a tus necesidades. También podrás contratar servicios adicionales</p>
+  </div>
+
+
+  <main>
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm card-border">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Personal</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$469,99<small class="text-muted fw-light">/mes</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>1GB de RAM</li>
+              <li>1 vCPU</li>
+              <li>10 GB Storage</li>
+              <li>1 TB Transferencia</li>
+              <li>1 Usuario</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary boton-contratar" value="1">Contratar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm card-border">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Básico</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$895,99<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>2GB de RAM</li>
+              <li>2 vCPU</li>
+              <li>20 GB Storage</li>
+              <li>2 TB Transferencia</li>
+              <li>2 Usuarios</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary boton-contratar" value="2">Contratar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm card-border">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Avanzado</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$1390,99<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>6GB de RAM</li>
+              <li>4 vCPU</li>
+              <li>40 GB Storage</li>
+              <li>4 TB Transferencia</li>
+              <li>4 Usuarios</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary boton-contratar" value="3">Contratar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm card-border">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Profesional</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$895,99<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>8GB de RAM</li>
+              <li>8 vCPU</li>
+              <li>100 GB Storage</li>
+              <li>10 TB Transferencia</li>
+              <li>Usuarios ilimitados</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary boton-contratar" value="4">Contratar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+  <!-- Checkout -->
+
+  <div class="container" id="payment">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="images/logo.png" width="100">
+      <h2>Información y medio de pago</h2>
+      <p class="lead">Complete los datos personales y los datos del medio de pago para completar la compra.</p>
+    </div>
+
+    
+    <div class="row g-5">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">Su compra</span>
+        </h4>
+
+<!-- COMPRA -->
+
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm" id="servicio-seleccionado">
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm" id="adicional-seleccionado">
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light" id="descuento-aplicado">
+          </li>
+          <li class="list-group-item d-flex justify-content-between" id="total-compra">
+            <span>Total por mes:</span>
+          </li>
+        </ul>
+
+
+
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Dirección de facturación</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Ingrese un nombre válido.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Ingrese un apellido valido.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Nombre de usuario</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback">
+                  Se requiere un nombre de usuario.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-muted">(Opcional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Ingrese un mail válido.
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <label for="servicio-adicional" class="form-label">Servicios adicionales</label>
+              <select class="form-select" id="servicio-adicional" required>
+                <option value="">Elegí...</option>
+              </select>
+              <div class="invalid-feedback">
+                Indique si necesita un servicio adicional.
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <label for="meses-contrato" class="form-label">Contratar por</label>
+              <select class="form-select" id="meses-contrato" required>
+                <option value="">Elegí...</option>
+              </select>
+              <div class="invalid-feedback">
+                Elija por cuanto tiempo quiere contratar el servicio.
+              </div>
+            </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">Guardar esta información para otra compra.</label>
+          </div>
+
+          <hr class="my-4">
+
+          <h4 class="mb-3">Información de pago</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <label class="form-check-label" for="credit">Tarjeta de crédito</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="debit">Tarjeta de débito</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Nombre en la tarjeta</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+              <small class="text-muted">Nombre completo como figure en la tarjeta</small>
+              <div class="invalid-feedback">
+                El nombre en la tarjeta es requerido!
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Número de tarjeta</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <div class="invalid-feedback">
+                Numero de tarjeta de crédito invalido.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Expiration</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <div class="invalid-feedback">
+                Ingrese una fecha de vencimiento válida!
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <div class="invalid-feedback">
+                Código de seguridad inválido
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button type="button" class="btn btn-primary" id="btn-pagar">Pagar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+</div>
+
+
+
+ <!-- onClick="window.location.reload(true)">Finalizar -->
+
+
+
+
+<!-- FOOTER -->
+<footer class="my-5 pt-5 text-muted text-center text-small">
+  <p class="mb-1">&copy; 2010–2022 CloudFire</p>
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="#">Privacidad</a></li>
+    <li class="list-inline-item"><a href="#">Terminos y condiciones</a></li>
+    <li class="list-inline-item"><a href="#">Soporte</a></li>
+  </ul>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/JS/app.js"></script>
+
+
+</body>
+</html>
